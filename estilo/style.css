@@ -1,0 +1,107 @@
+header {
+    background-color: #2F6B3A;
+    margin: -10px;
+    margin-bottom: -0px;
+    padding: 5px;
+    display: flex;
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+}
+body {
+    background-color: #E9E4DC;
+}
+img {
+    margin-top: 10px;
+}
+.ECOHOME {
+    color: #CFE5CF;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    margin-right: 70px;
+    font-weight: bold;
+}
+.perfil {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.folha {
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+}
+.carrinho {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 160px;
+    margin-right: 40px;
+}
+a {
+    align-items: baseline;
+    color: #CFE5CF;
+    text-decoration: none;
+    align-items: center;        /* alinha verticalmente */
+    justify-content: space-between;
+    padding: 60px 60px;
+}
+nav {
+    font-size: 30px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.titulo1 {
+    color: #2F6B3A;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 120px;
+}
+.titulo2 {
+    color: #2F6B3A;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+.subtitulo {
+    color: #2F6B3A;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 60px;
+    font-size: 30px;
+    font-weight: 300;
+}
+.capa {
+    height: 200px;
+    width: 350px;
+    text-align: right;
+    height: auto;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.banner {
+    display: flex;
+    margin-bottom: 80px;
+}
+.oferecimento {
+    display: flex;
+}
+.impacto {
+    margin-left: -10px;
+    width: 505px;
+}
+.design {
+    margin-left: -10px;
+    width: 506px;
+    height: 380px;
+}
+.embalagem {
+    margin-left: -10px;
+    width: 507px;
+    height: 380px;
+}
