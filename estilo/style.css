@@ -1,6 +1,6 @@
 header {
     background-color: #2F6B3A;
-    margin: -10px;
+    margin: -30px;
     margin-bottom: -0px;
     padding: 5px;
     display: flex;
@@ -13,6 +13,9 @@ body {
 }
 img {
     margin-top: 10px;
+}
+div {
+    width: 100%;
 }
 .ECOHOME {
     color: #CFE5CF;
@@ -104,4 +107,46 @@ nav {
     margin-left: -10px;
     width: 507px;
     height: 380px;
+}
+.oferecimentos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: start;
+}
+.overlay-top {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: -10px;
+    font-family: 'Quicksand', sans-serif;
+    height: 40px;
+    opacity: 0.5;
+    margin-left: -10px;
+}
+.overlay-bottom {
+    background-color: white;
+    margin-bottom: -10px;
+    margin-top: -4px;
+    font-family: 'Quicksand', sans-serif;
+    padding: 10px;
+    margin-left: -10px;
+    gap: 0;
+    opacity: 0.5;
+    font-weight: bold;
+    font-size: large;
+}
+.item-oferecimento {
+    align-items: start;
+}
+.overlay-top h2, .overlay-bottom p {
+    margin: 0;
+}
+.destaques {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: #2F6B3A;
+    margin-left: 80px;
+    margin-top: 150px;
 }
