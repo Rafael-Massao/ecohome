@@ -1,3 +1,20 @@
+html {
+    scroll-behavior: smooth !important;
+}
+#sobre, #comprar, #contato {
+    scroll-margin-top: 120px;
+}
+.sobre :hover, .comprar :hover, .contato :hover {
+    background-color: #CFE5CF;
+    color: #2F6B3A;
+    transform: scale(1.05);
+    border-radius: 1000px; 
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
 header {
     background-color: #2F6B3A;
     margin: -30px;
@@ -40,9 +57,9 @@ div {
     font-weight: bold;
 }
 .perfil {
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
 }
 .folha {
     width: 100px;
@@ -50,23 +67,33 @@ div {
     margin-left: 20px;
 }
 .carrinho {
-    width: 80px;
-    height: 80px;
-    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
     margin-left: 160px;
     margin-right: 40px;
 }
-.privacidade {
+.privacidade, .uso, .troca {
     padding: 15px;
     margin-left: 80px;
+    background-color: #2F6B3A;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #CFE5CF;
+    font-size: 25px;
+    cursor: pointer;
 }
-.uso {
-    padding: 15px;
-    margin-left: 80px;
-}
-.troca {
-    padding: 15px;
-    margin-left: 80px;
+.privacidade:hover, .uso:hover, .troca:hover {
+    background-color: #CFE5CF;
+    color: #2F6B3A;
+    transform: scale(1.05);
+    border-radius: 1000px; 
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
 }
 .facebook {
     margin-top: 20px;
